@@ -1,0 +1,137 @@
+#bottom-section{
+  background-color: #0b0020;
+  height: 100vh;
+}
+.bottom-width{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 40px;
+  border-bottom: 1px solid gray;
+  width: 90%;
+  align-items: center;
+}
+.icons {
+  gap: 30px;
+  display: flex;
+  cursor: pointer;
+  font-size: 20px;
+}
+.icons i{
+  transition: all 0.3s;
+}
+.icons i:hover{
+  transform: rotateY(360deg);
+  transition: all 0.3s;
+  color: #00bfe7;
+}
+.footer{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+  width: 100%;
+}
+.about-us{
+  width: 32%;
+}
+.about-us p{
+  padding: 40px 0;
+  width: 100%;
+  color: #adadad;
+}
+.about-us button{
+  color: white;
+  background-color: #0b0020;
+  padding: 16px ;
+  font-size: 12px;
+  cursor: pointer;
+  border: 2px solid #00bfe7;
+  transition: all 0.3s;
+}
+.about-us button:hover{
+  transform: translateY(-5px);
+  /* background-color: red; */
+  border-radius: 10px;
+}
+.who a{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-decoration: none;
+  color: gray;
+}
+.who{
+  padding: 0 30px;
+  /* width: 100%; */
+}
+.who a{
+  transition: all 0.3s;
+
+}
+.who a:hover{
+  transform: translateX(10px);
+  transition: all 0.3s;
+}
+.who h2{
+  width: 100%;
+}
+.our-work a{
+  display: flex;
+  flex-direction: column;
+  padding: 10px ;
+  text-decoration: none;
+  color: gray;
+  transition: all 0.3s;
+}
+.our-work a:hover{
+  transform:  translateX(10px);
+}
+.our-work h2{
+  padding: 0px 5px;
+}
+.who h2{
+  padding: 0px 5px;
+}
+.our-work{
+  padding: 0 30px;
+  margin-top: -10px;
+}
+.news-letter{
+  padding: 0 20px;
+}
+.news-letter p{
+  padding: 40px 0;
+  color: #adadad;
+}
+.news-letter input{
+  width: 80%;
+  padding: 10px ;
+  border: none;
+  /* border-radius: 5px; */
+  background-color: #0b0020;
+  color: gray;
+  border: 1px solid gray;
+}
+.news-letter i{
+  background-color: #00bfe7;
+  padding: 10px;
+  cursor: pointer;
+gap: 0px;
+}
+.copy-right{
+  color: white;
+  padding-top: 100px ;
+  border-top: 1px solid gray;
+  /* width: 75%; */
+  text-align: center;
+  /* background-color: red; */
+  /* width: ; */
+  height: 100px;
+}
+.copy-right a{
+  text-decoration: none;
+  color: #00bfe7;
+}

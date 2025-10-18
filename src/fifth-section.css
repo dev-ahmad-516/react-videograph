@@ -1,0 +1,58 @@
+#fifth-section{
+  background-image: url(team-bg.jpg.webp);
+  height: 105vh;
+}
+.fifth-content{
+  color: white;
+  padding: 60px;
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: -10px;
+}
+.fifth-content h3{
+  padding-bottom: 30px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 24px;
+}
+.team-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin-top: -50px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.team-wrapper img{
+  transition: all 0.3s;
+}
+.team-wrapper img:hover{
+  border-radius: 30px;
+  transform: scale(1.06);
+  transition: all 0.3s;
+}
+.meet-btn{
+  text-align: right;
+  padding: 20px 0;
+}
+.meet-btn button{
+  text-align: center;
+  color: white ;
+  font-size: 16px;
+  background-color: #0b0020;
+  border: 2px solid #00bfe7;
+  padding: 15px;
+  cursor: pointer;
+  margin-top: -20px;
+  transition: all 0.3s;
+  margin-right: 20px;
+}
+.meet-btn button:hover{
+  transform: translateX(-50px);
+  color: black;
+  background-color: #00bfe7;
+  border: 2px solid white;
+  font-weight: bold;
+  /* border: 2px solid; */
+
+}

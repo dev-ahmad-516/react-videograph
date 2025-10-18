@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  border: none;
+  box-sizing: border-box;
+}
+
+#hero-section {
+  background: url("hero-1.jpg") no-repeat center/cover;
+  height: 100vh;
+  color: white;
+}
+.layout-width {
+  width: 75%;
+  margin: auto;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+}
+.links li:first-child {
+  border-bottom: 2px solid #007bff;
+}
+.logo {
+  display: flex;
+  width: 150px;
+  cursor: pointer;
+}
+.logo img {
+  width: 100%;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  border-right: 1px solid #4c4c4c;
+  /* justify-content: space-between; */
+}
+.links li {
+  list-style: none;
+  padding: 5px 0;
+}
+li a {
+  color: white;
+  text-decoration: none;
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.social-icons i:hover{
+  color: #00bfe7;
+  transition: 0.3s ease-in-out;
+  transform: rotateY(360deg);
+}
+#hero-content #header {
+  background-color: #4c4c4c;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+#header button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+#hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+}
+.hero-content h1 {
+  font-size: 60px;
+  width: 40%;
+  margin: 30px 0;
+}
+.hero-content h5{
+  color: white;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 10px 0;
+}
+/* .hero-content button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px;
+  border: 2px solid white;
+  cursor: pointer;
+} */
+.glowing-button {
+  padding: 13px 24px;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #00eeff, 0 0 10px #00eeff;
+  transition: all 0.3s ease;
+}
+
+.glowing-button:hover {
+  background: #00eeff;
+  color: #000;
+  box-shadow: 0 0 10px #00eeff, 0 0 20px #00eeff, 0 0 40px #00eeff;
+}
+.btns {
+  display: flex;
+  gap: 20px;
+  /* padding-bottom: 50px; */
+}
+.btns button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 5px;
+  border-bottom: 2px solid gray;
+  cursor: pointer;
+}
+.btns button:hover {
+  border-bottom: 2px solid #00bfe7;
+  transition: 0.3s all;
+  transform: scale(1.2);
+}
