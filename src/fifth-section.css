@@ -1,5 +1,9 @@
 #fifth-section{
-  background-image: url(team-bg.jpg.webp);
+  /* background-image: url(team-bg.jpg.webp); */
+  background: url(https://preview.colorlib.com/theme/videograph/img/team-bg.jpg) no-repeat center/cover;
+  /* background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat/center; */
   height: 105vh;
 }
 .fifth-content{
